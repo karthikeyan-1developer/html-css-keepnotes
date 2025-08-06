@@ -11,8 +11,5 @@
 ## 🚀 Live Demo
 🔗 [Check it out here](https://karthik24.neocities.org/Keepnotes/)
 
-## 📁 How to Use
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/karthikeyan-1developer/KeepNotes.git
+
 
