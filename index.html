@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Keep Notes</h1>
+    </div>
+    <div class="container"> <div class="b-con">
+        <h2>Karthik</h2>
+        <h5>24/01/2024</h5>
+        <p>   Hello! I’m KARTHIKEYAN D, a final-year ECE student passionate about tech, web development, and embedded systems.This "Keep Notes" project is a simple note management tool to add and remove book summaries or thoughts interactively.It's built using HTML, CSS, and JavaScript .</p>
+        <button onclick="del(event)">delete</button>
+    </div>
+    <div class="popup"></div>
+    <div class="box">
+        <h2>add title</h2>
+        <form>
+            <input type="text" id="a" placeholder="Topic">
+            <input type="text" id="b" placeholder="Date">
+            <textarea placeholder="Write Notes" id="c"></textarea>
+            <button id="d">Add</button>
+            <button id="e">Cancel</button>
+
+        </form>
+    </div>
+    </div>
+    <button class="add" id="add-pop">+</button>
+    
+
+    <script src="cript.js"></script>
+</body>
+</html>
